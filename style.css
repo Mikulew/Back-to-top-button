@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000000;
+    font-family: 'Helvetica', sans-serif;
+}
+
+#container {
+    width: 80%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+h1 {
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid #d8d8d8;
+    line-height: 1;
+}
+
+p {
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+.backToTop {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(0, 198, 255,.9);
+    opacity: 1;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    color: #006583;
+    transition: visibility .5s, opacity .5s;
+    outline: none;
+}
+
+.backToTop:hover {
+    background: rgba(0, 212, 255, 1);
+}
+
+.backToTop.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
